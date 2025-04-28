@@ -1,17 +1,17 @@
 *{
       box-sizing: border-box;
-      margin: 0;
-      padding: 0;
 }
 body {
       background-color:#F5EEDD ;
+      margin: 0;
+      padding: 0;
 }
 #home{
       height: 640px;
 }
 .navBar{
       height: 109px;
-      width: 100%;
+      width: 100vw;
       margin: 0;
       padding: 0;
       background-color: #7AE2CF;
@@ -51,12 +51,13 @@ h2{
 }
 .textContainer{
       width: 357px;
-      height: 210px;
+      height: auto;
       background-color: #077A7D;
       color:white;
       text-align: justify;
-      padding: 2px;
+      padding: 10px;
       font: 400 24px "Roboto Serif";
+      border-radius: 10px;
 }
 .img2, .img3, .img1{
       height: 250px;
@@ -66,19 +67,70 @@ h2{
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
 }
-footer{
-      height: 109px;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      background-color: #7AE2CF;    
+.img1{
+      justify-self: end;
+      margin-right: 40px;
+      align-self: center;
+}
+.txt1{
+      align-self: center;
+}
+.txt2{
+      justify-self: end;
+      align-self: center;
+      margin-right: 40px;
+}
+.img2{
+      align-self: center;
+}
+.img3{
+      justify-self: end;
+      margin-right: 40px;
+      align-self: center;
+}
+.txt3{
+      align-self: center;
+}
+  
+.gridContainer2{
+      display: flex;
+      justify-content: space-evenly;
 }
 .imgCaption{
-      width: 441px;
+      width: 400px;
       height: 56px;
       background-color: #077A7D;
       margin: 0;
 }
 #pastProjects img, #pastProjects a{
       margin: 0;
+      padding:0;
+}
+.websitePreview{
+      width: 400px;
+}
+#pastProjects{
+      margin-bottom: 200px;
+}
+#contactMe{
+      height: 109px;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #7AE2CF;
+}
+#pastProjects p{
+      font: 400 24px "Roboto Serif", Helvetica, Ariel;
+      text-align: center;
+      padding-top: 12px;
+      color: white;
+}
+a{
+      text-decoration: none;
+      color: #123458;
+      margin: 20px;
+}
+i{
+      font-size: 70px;
+
 }
